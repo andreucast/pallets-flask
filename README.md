@@ -46,6 +46,40 @@ donate today].
 
 ## Contributing
 
+## Diagrames UML de seqüència — Autenticació
+
+Aquests diagrames representen el procés d'autenticació de l'aplicació web del projecte Blog Flask.
+
+### 1. Esquelet del diagrama de seqüència
+
+Mostra els participants del procés: l'usuari, la interfície web, el servei d'autenticació i la base de dades.
+
+[Veure l'esquelet del login](diagrams/esquelet-login.png)
+
+### 2. Flux principal (happy path)
+
+Representa el procés d'inici de sessió quan les credencials són correctes.
+
+[Veure el flux principal](diagrams/login-happy-path.png)
+
+### 3. Flux alternatiu: credencials invàlides
+
+Representa què passa quan l'usuari introdueix credencials incorrectes.
+
+[Veure el diagrama](diagrams/credencials-incorrectes.png)
+
+### 4. Flux alternatiu: sistema no accessible
+
+Representa què passa quan el sistema no està disponible i es mostra un missatge d'error.
+
+[Veure el diagrama](diagrams/sistema-no-accessible.png)
+
+### 5. Flux alternatiu: format de correu incorrecte
+
+Representa què passa quan l'usuari introdueix un correu electrònic amb un format incorrecte.
+
+[Veure el diagrama](diagrams/format-correu-incorrecte.png)
+
 See our [detailed contributing documentation][contrib] for many ways to
 contribute, including reporting issues, requesting features, asking or answering
 questions, and making PRs.
